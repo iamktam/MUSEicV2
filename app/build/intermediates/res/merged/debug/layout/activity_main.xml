@@ -1,0 +1,333 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="1"
+	android:background="#006494">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+
+	<Spinner
+		android:id="@+id/muses_spinner"
+		android:layout_width="194dp"
+		android:layout_height="60dp" />
+
+	<TextView
+		android:id="@+id/battery"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="end"
+		android:gravity="end"
+		android:text="Battery: __.__%"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:orientation="horizontal" >
+		<Button
+			android:id="@+id/refresh"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:text="@string/find"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"/>
+		<Button
+			android:id="@+id/connect"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:text="@string/connect"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"/>
+		<Button
+			android:id="@+id/disconnect"
+			android:layout_width="120dp"
+			android:layout_height="40dp"
+			android:text="@string/disconnect"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="211dp"
+		android:id="@+id/scrollView"
+		android:layout_gravity="right">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/status" />
+		<TextView
+			android:id="@+id/con_status"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/undefined" />
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:textSize="16sp"
+		android:text="@string/horseshoe" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		<TextView
+			android:id="@+id/horse1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+		<TextView
+			android:id="@+id/horse2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+		<TextView
+			android:id="@+id/horse3"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+		<TextView
+			android:id="@+id/horse4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+	</LinearLayout>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:textSize="16sp"
+		android:text="@string/gamma" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		<TextView
+			android:id="@+id/gamma1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/init_val" />
+		<TextView
+			android:id="@+id/gamma2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/init_val" />
+		<TextView
+			android:id="@+id/gamma3"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/init_val" />
+		<TextView
+			android:id="@+id/gamma4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/init_val" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="Avg Gamma:" />
+		<!--Uses good connections & valid gammas-->
+		<TextView
+			android:id="@+id/avg_gamma"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/init_val" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="Happy/sad?" />
+		<!--(avg gamma >0.2 happy, .1 to .2 neutral, <.1 sad)-->
+		<TextView
+			android:id="@+id/happysad"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/concentration" />
+		<TextView
+			android:id="@+id/con"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="@string/mellow" />
+		<TextView
+			android:id="@+id/mel"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="Current Suggested Type:" />
+		<TextView
+			android:id="@+id/songtype"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="" />
+	</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal" >
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:text="Playing Type:" />
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:textSize="16sp"
+			android:id="@+id/curr_song_type" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="112dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center"
+			android:text="Large Text"
+			android:textSize="16pt"
+			android:id="@+id/debug_label"
+			android:layout_gravity="center_horizontal" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal">
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Prev"
+			android:id="@+id/prevButton"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"
+			android:padding="20dp"/>
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Play/Pause"
+			android:id="@+id/playButton"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"
+			android:padding="20dp"/>
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Next"
+			android:id="@+id/nextButton"
+			android:textColor="#000000"
+			android:background="#ffffff"
+			android:layout_marginLeft="10dp"
+			android:padding="20dp" />
+	</LinearLayout>
+
+</LinearLayout>

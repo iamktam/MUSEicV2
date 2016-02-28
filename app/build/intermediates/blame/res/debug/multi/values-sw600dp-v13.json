@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 67,
+                    "endOffset": 118
+                },
+                "from": {
+                    "file": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\values-sw600dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 67,
+                        "endOffset": 267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 123,
+                    "endColumn": 66,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\values-sw600dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 272,
+                        "endColumn": 66,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 81,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\values-sw600dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 488,
+                        "endColumn": 81,
+                        "endOffset": 565
+                    }
+                }
+            }
+        ]
+    }
+]

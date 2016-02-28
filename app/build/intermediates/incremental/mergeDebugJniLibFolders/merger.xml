@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\TestLibMuseAndroid\app\src\main\jniLibs"><file name="armeabi/libmuse.so" path="C:\TestLibMuseAndroid\app\src\main\jniLibs\armeabi\libmuse.so"/><file name="x86/libmuse.so" path="C:\TestLibMuseAndroid\app\src\main\jniLibs\x86\libmuse.so"/></source></dataSet><dataSet config="debug"><source path="C:\TestLibMuseAndroid\app\src\debug\jniLibs"/></dataSet></merger>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="myosdk__button_orange">#FF8000</color>
+    <color name="myosdk__button_red">#AE0922</color>
+    <color name="myosdk__indicator_green">#24C75A</color>
+    <color name="myosdk__thalmic_blue">#00BCDD</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="myosdk__activity_horizontal_margin">16dp</dimen>
+    <dimen name="myosdk__activity_vertical_margin">16dp</dimen>
+    <dimen name="myosdk__fragment_scan_window_height">0dp</dimen>
+    <dimen name="myosdk__fragment_scan_window_width">0dp</dimen>
+    <string name="accel">Accelerometer Data:</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">TestLibMuseAndroid</string>
+    <string name="artifacts">Blinks, Jaw: </string>
+    <string name="com_spotify_sdk_login_progress">Loading…</string>
+    <string name="concentration">Concen:</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="drop">Drop</string>
+    <string name="eeg">EEG data:</string>
+    <string name="find">Find</string>
+    <string name="gamma">Relative Gamma values:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="horseshoe">Connection point quality:</string>
+    <string name="init_val">0.0</string>
+    <string name="mellow">Mellow:</string>
+    <string name="msg_count">Msg number, size: </string>
+    <string name="muse_elem">Elements:</string>
+    <string name="myosdk__action_scan">Scan</string>
+    <string name="myosdk__action_stop_scan">Stop Scan</string>
+    <string name="myosdk__firmware_required_format">Required: %s or newer</string>
+    <string name="myosdk__firmware_version_format">Version: %s</string>
+    <string name="myosdk__title_activity_scan">Choose a Myo</string>
+    <string name="myosdk__unknown_myo">Unknown Myo</string>
+    <string name="pause">Pause/Resume</string>
+    <string name="status">Connection Status:</string>
+    <string name="undefined">unknown</string>
+    <string name="version">Version:</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12dp</item>
+
+    </style>
+    <style name="myosdk__PopupActivityTheme" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="myosdk__ScanActivityTheme" parent="android:Theme.Holo.Light"/>
+</resources>

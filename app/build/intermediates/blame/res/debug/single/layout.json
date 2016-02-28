@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_spotify_sdk_login_activity.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.spotify.sdk\\spotify-auth\\1.0.0-beta12\\res\\layout\\com_spotify_sdk_login_activity.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myosdk__device_list_item.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\layout\\myosdk__device_list_item.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_spotify_sdk_login_dialog.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.spotify.sdk\\spotify-auth\\1.0.0-beta12\\res\\layout\\com_spotify_sdk_login_dialog.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myosdk__fragment_scan.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\layout\\myosdk__fragment_scan.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myosdk__activity_scan.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\layout\\myosdk__activity_scan.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

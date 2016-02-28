@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myosdk__connected_dot.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\drawable\\myosdk__connected_dot.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myosdk__firmware_incompatible_dot.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\drawable\\myosdk__firmware_incompatible_dot.xml"
+    }
+]

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.interaxon.test.libmuse"
+        minSdkVersion 19
+        targetSdkVersion 21
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+
+}
+
+dependencies {
+    repositories {
+        maven {
+            url 'libs/myo-android-sdk-0.10.0/myorepository'
+        }
+    }
+
+    compile 'com.thalmic:myosdk:0.10.+@aar'
+
+    // This library handles authentication and authorization
+    compile 'com.spotify.sdk:spotify-auth:1.0.0-beta12@aar'
+
+    // This library handles music playback
+    compile 'com.spotify.sdk:spotify-player:1.0.0-beta12@aar'
+    compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/libmuseandroid.jar')
+}

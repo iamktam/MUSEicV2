@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\myosdk__fragment_scan.xml",
+        "source": "C:\\TestLibMuseAndroid\\app\\build\\intermediates\\exploded-aar\\com.thalmic\\myosdk\\0.10.0\\res\\menu\\myosdk__fragment_scan.xml"
+    }
+]

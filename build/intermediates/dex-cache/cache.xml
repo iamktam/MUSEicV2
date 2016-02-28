@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_54d1625addb54d71da0d8c846eb38ddaa35c7643.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_01bc21708e57a8d3b47e7cc884dbb49803ea4ab4.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-player\1.0.0-beta12\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2166a6c09b3467f01793b27728fa2f5bdb0e2981">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\com.spotify.sdk-spotify-player-1.0.0-beta12_de8b5e244d3eb035c4a09697e456ad357304c6b5.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-player\1.0.0-beta12\jars\libs\jnihelpers-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95f89497f7e22c5b8d130ffab782bc35013180ee">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\jnihelpers-1.0_c1859f8aaa752d2af5382b77362a95292b07054d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jessica Dou\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_1aa37317e70a6e9698f0c7e00a13788d845353e6.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\libs\libmuseandroid.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b7a1ebe2d998c58d6ce2157fa29ef6df6fbdd38">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\libmuseandroid_5f20937d89c6fc34da49467efb9a7708b94fd4df.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-auth\1.0.0-beta12\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ae103bc312bb16fa0e04b4b50af27c0ad7eb987">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\com.spotify.sdk-spotify-auth-1.0.0-beta12_9948becc45fe8d9567ebca8ab9aeec2e9d1b0c5a.jar" />
+    </item>
+    <item
+        jar="C:\TestLibMuseAndroid\app\build\intermediates\exploded-aar\com.thalmic\myosdk\0.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d189db75174a41996c33bb243d2228aacf10fa53">
+        <dex dex="C:\TestLibMuseAndroid\app\build\intermediates\pre-dexed\debug\com.thalmic-myosdk-0.10.0_f746686621dbe3708f5e4e9318af6f4b8c930e54.jar" />
+    </item>
+
+</items>

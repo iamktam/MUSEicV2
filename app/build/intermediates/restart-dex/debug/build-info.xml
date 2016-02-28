@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="6"
+    timestamp="550127758457390" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\TestLibMuseAndroid\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="547436445066685" >
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="548433371176998" >
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7_a5bc46d7b0157106110d2b97afd71f97635c8a7d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4_6e8e91807ae2ff069dace85a94db08ea9aeee9b6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5_57d9383f864d44b5a17fe63cb486ff1c3520e1c6\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="548858788070344" >
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2_eacbd778519664a811d2a860113d420e1d1059fc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0_3bc16b6a0692fc08055d489c59b751c22182dd95\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3_cafd69d6602dd516969497aeeb4b2b5230398c02\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1_e55746b4736944d871ba47a851f2c3e828bcb7a0\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="550127758457390" >
+        <artifact
+            location="C:\TestLibMuseAndroid\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
